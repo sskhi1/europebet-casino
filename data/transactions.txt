@@ -1,0 +1,15 @@
+register user1
+register user2
+addscenario 1000 1500 2000
+addscenario 3000 3500 4000
+addscenario 5000 5500 6000
+deposit user1 100
+bet user1 SLOT 10
+bet user1 SLOT 15
+bet user1 SLOT 20
+bet user1 SLOT 5
+bet user1 CASINO 10
+deposit user2 100
+bet user2 SLOT 100
+balance user1
+balance user2
