@@ -35,10 +35,6 @@ public class CasinoSimulator implements Casino {
                 registerUser(parts);
             }
             case "addscenario" -> {
-                if (parts.length != 4) {
-                    logger.info("invalid addscenario operation");
-                    break;
-                }
                 addScenario(parts);
             }
             case "deposit" -> {
